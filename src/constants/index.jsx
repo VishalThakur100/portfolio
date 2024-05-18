@@ -7,12 +7,9 @@ import mongodb from "../assets/mongodb.png";
 import javascript from "../assets/javascript.png";
 import reacr from "../assets/reacr.png";
 import web from "../assets/web.png";
-// import ux from "../assets/ux.png";
-// import typescript from "../assets/typescript.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import java from "../assets/java.png";
-// import pro1 from "../assets/pro1.jpg";
 import pro2 from "../assets/pro2.jpg";
 import foodmood from "../assets/foodmood img.png"
 import pro3 from "../assets/password generator.png";
@@ -53,10 +50,7 @@ const technologies = [
     name: "Javascript",
     icon: javascript,
   },
-  // {
-  //   name: "Typescript",
-  //   icon: typescript,
-  // },
+  
   {
     name: "React JS",
     icon: reactjs,
@@ -69,10 +63,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "git",
     icon: git,
