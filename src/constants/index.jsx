@@ -86,7 +86,7 @@ const projects = [
   {
     name: "foodMood",
     description:
-      "foodMood is a cutting-edge food ordering platform designed with the modern epicurean in mind. Crafted using the robust ReactJS framework for dynamic and interactive user interface, styled with the sleek Tailwind CSS which provides a customizable design system that adapts to any device, and managed with the efficient Redux Toolkit that streamlines state management, making your online ordering process smooth and reliable. foodMood isn’t just a website; it’s your passport to a world of culinary delights, all made possible by the synergy of ReactJS, Tailwind CSS, and Redux Toolkit.      ",
+      "foodMood is a cutting-edge food ordering platform designed with the modern epicurean in mind. Crafted using the robust ReactJS framework for dynamic and interactive user interface, styled with the sleek Tailwind CSS which provides a customizable design system that adapts to any device, and managed with the efficient Redux Toolkit that streamlines state management, making your online ordering process smooth and reliable. foodMood isn’t just a website; it’s your passport to a world of culinary delights, all made possible by the synergy of ReactJS, Tailwind CSS, and Redux Toolkit.",
     tags: [
       {
         name: "JavaScript",
