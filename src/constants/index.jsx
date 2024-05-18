@@ -12,9 +12,10 @@ import web from "../assets/web.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import java from "../assets/java.png";
-import pro1 from "../assets/pro1.jpg";
+// import pro1 from "../assets/pro1.jpg";
 import pro2 from "../assets/pro2.jpg";
-import pro3 from "../assets/pro3.jpg";
+import foodmood from "../assets/foodmood img.png"
+import pro3 from "../assets/password generator.png";
 
 const services = [
   {
@@ -86,7 +87,7 @@ const projects = [
   {
     name: "foodMood",
     description:
-      "foodMood is a cutting-edge food ordering platform designed with the modern epicurean in mind. Crafted using the robust ReactJS framework for dynamic and interactive user interface, styled with the sleek Tailwind CSS which provides a customizable design system that adapts to any device, and managed with the efficient Redux Toolkit that streamlines state management, making your online ordering process smooth and reliable. foodMood isn’t just a website; it’s your passport to a world of culinary delights, all made possible by the synergy of ReactJS, Tailwind CSS, and Redux Toolkit.",
+      "foodMood is a cutting-edge food ordering platform designed with the modern epicurean in mind. Crafted using the robust ReactJS framework, styled with the sleek Tailwind CSS, and managed with the efficient Redux Toolkit,",
     tags: [
       {
         name: "JavaScript",
@@ -101,9 +102,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: pro1,
-    source_code_link: "https://github.com/riva211/realestate.github.io",
-    source_deploy_link: "https://rivasrealestate.netlify.app ",
+    image: foodmood,
+    source_code_link: "https://github.com/Vishalsingh369/foodmood-app",
+    source_deploy_link: "https://foodmoodapp.netlify.app/",
   },
   {
     name: "ToDo App",
@@ -128,16 +129,16 @@ const projects = [
     source_deploy_link: "https://rivastodolist.netlify.app",
   },
   {
-    name: "OxiBook ",
+    name: "Password Generator ",
     description:
-      "OxiBook is online book buying and selling website with and user freindly UI. It is a MERN stack web application, ",
+      "A password generator app built with ReactJS and Tailwind CSS that allows users to create secure and customizable passwords. Users can specify password length, include numbers and special characters, and easily copy the generated password to the clipboard",
     tags: [
       {
         name: "React js",
         color: "blue-text-gradient",
       },
       {
-        name: "Nodejs",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
@@ -146,8 +147,8 @@ const projects = [
       },
     ],
     image: pro3,
-    source_code_link: "https://github.com/riva211?tab=repositories",
-    source_deploy_link: "https://gregarious-sorbet-33fff8.netlify.app/",
+    source_code_link: "https://github.com/Vishalsingh369/password-generator",
+    source_deploy_link: "https://vishalsingh369.github.io/password-generator/",
   },
 ];
 export { services, technologies, projects };

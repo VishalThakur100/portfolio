@@ -46,7 +46,7 @@ function Projects() {
                 {project.name}
               </div>
               <div className="text-center">
-                <span className="text-orange-500">{project.description}</span>
+                <span className="text-orange-500 text-xs">{project.description}</span>
               </div>
             </div>
           </Tilt>
