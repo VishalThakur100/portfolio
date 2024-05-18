@@ -37,6 +37,10 @@ const services = [
 
 const technologies = [
   {
+    name: "Java",
+    icon: java,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
@@ -76,17 +80,14 @@ const technologies = [
     name: "github",
     icon: github,
   },
-  {
-    name: "Java",
-    icon: java,
-  },
+  
 ];
 
 const projects = [
   {
-    name: "Free Hold",
+    name: "foodMood",
     description:
-      "Web site for made using Anmgular and Typescript for buying and renting real-estate to style and make it responsive Bootsrap is used",
+      "",
     tags: [
       {
         name: "Typescript",
