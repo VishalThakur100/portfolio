@@ -3,7 +3,7 @@ import tailwind from "../assets/tailwind.png";
 import html from "../assets/html.png";
 import nodejs from "../assets/nodejs.png";
 import reactjs from "../assets/reactjs.png";
-import mongodb from "../assets/mongodb.png";
+// import mongodb from "../assets/mongodb.png";
 import javascript from "../assets/javascript.png";
 import reacr from "../assets/reacr.png";
 import web from "../assets/web.png";
@@ -100,28 +100,28 @@ const projects = [
     source_code_link: "https://github.com/Vishalsingh369/foodmood-app",
     source_deploy_link: "https://foodmoodapp.netlify.app/",
   },
-  {
-    name: "ToDo App",
-    description:
-      "Web application that enables users to manage their daily task and to manage the time efficiently ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Tailwind",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: pro2,
-    source_code_link: "https://github.com/riva211?tab=repositories",
-    source_deploy_link: "https://rivastodolist.netlify.app",
-  },
+  // {
+  //   name: "ToDo App",
+  //   description:
+  //     "Web application that enables users to manage their daily task and to manage the time efficiently ",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: pro2,
+  //   source_code_link: "https://github.com/riva211?tab=repositories",
+  //   source_deploy_link: "https://rivastodolist.netlify.app",
+  // },
   {
     name: "Password Generator ",
     description:
