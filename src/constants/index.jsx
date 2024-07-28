@@ -10,7 +10,7 @@ import web from "../assets/web.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import java from "../assets/java.png";
-import pro2 from "../assets/pro2.jpg";
+// import pro2 from "../assets/pro2.jpg";
 import foodmood from "../assets/foodmood img.png"
 import pro3 from "../assets/password generator.png";
 
@@ -97,7 +97,7 @@ const projects = [
       },
     ],
     image: foodmood,
-    source_code_link: "https://github.com/Vishalsingh369/foodmood-app",
+    source_code_link: "https://github.com/VishalThakur100/foodMood",
     source_deploy_link: "https://foodmoodapp.netlify.app/",
   },
   // {
@@ -141,8 +141,8 @@ const projects = [
       },
     ],
     image: pro3,
-    source_code_link: "https://github.com/Vishalsingh369/password-generator",
-    source_deploy_link: "https://vishalsingh369.github.io/password-generator/",
+    source_code_link: "https://github.com/VishalThakur100/portfolio",
+    source_deploy_link: "https://thakurportfolio.netlify.app/",
   },
 ];
 export { services, technologies, projects };
