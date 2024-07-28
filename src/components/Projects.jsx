@@ -26,16 +26,16 @@ function Projects() {
           >
             <div className="">
               <div className="flex justify-center items-center mb-3">
-                <div className="h-[40px] w-[40px] m-3 bg-slate-50 rounded-full shadow-lg shadow-violet-500 flex justify-center items-center ">
+                {/* <div className="h-[40px] w-[40px] m-3 bg-slate-50 rounded-full shadow-lg shadow-violet-500 flex justify-center items-center ">
                   <a href={project.source_deploy_link} target="blank">
                     <SiNetlify className="text-3xl font-bold text-violet-600 "></SiNetlify>
                   </a>
-                </div>
-                {/* <div className="h-[40px] w-[40px] m-3 bg-slate-50 rounded-full shadow-lg shadow-violet-500 flex justify-center items-center ">
+                </div> */}
+                <div className="h-[40px] w-[40px] m-3 bg-slate-50 rounded-full shadow-lg shadow-violet-500 flex justify-center items-center ">
                   <a href={project.source_code_link} target="blank">
                     <SiGithub className="text-3xl font-bold text-violet-600 "></SiGithub>
                   </a>
-                </div> */}
+                </div>
               </div>
               <img
                 src={project.image}
