@@ -19,7 +19,7 @@ function Main() {
   }, []);
 
   return (
-    <div className="max-h-screen">
+    <div className="min-h-screen bg-black text-white">
       <Particles
       id="tsparticles"
       init={particlesInit}
@@ -27,7 +27,7 @@ function Main() {
       options={{
         background: {
           color: {
-            value: "#ffffff",
+            value: "#000000", // Changed to black
           },
         },
         fpsLimit: 120,
@@ -94,6 +94,10 @@ function Main() {
         detectRetina: true,
       }}
     />
+    {/* Add this div to contain the rest of your content */}
+    <div className="relative z-10">
+      {/* Your other components will go here */}
+    </div>
     </div>
   );
 }

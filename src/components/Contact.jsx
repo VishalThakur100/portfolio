@@ -1,8 +1,10 @@
-import React from "react";
+// import React from "react";
 import { Styles } from "../utils/Style";
 import contact from "../assets/contact-us.jpg";
 import { useRef } from "react";
-import emailjs from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
+import apiKeys from "../../apikey";
 
 function Contact() {
   const form = useRef();
@@ -11,23 +13,22 @@ function Contact() {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_v24hayn", "template_5dcugmj", form.current, {
-        publicKey: "GqVZZI157TEkfDCKY",
-      })
+      .sendForm("gmail", apiKeys.TEMPLATE_ID, e.target, apiKeys.USER_ID)
       .then(
-        () => {
-          console.log("SUCCESS!");
+        (result) => {
+          alert("Message Sent, I'll get back to you shortly", result.text);
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          alert("An error occured, Plese try again", error.text);
         }
       );
 
-    // alert("Email Send");
+    alert("Email Send");
     e.target.reset();
   };
   return (
-    <div id="Contact">
+    // Add bg-black and text-white classes to the main container
+    <div id="Contact" className="bg-black text-white">
       <div>
         <div className="pt-3 mt-4 flex-row items-center pl-5 " id="Overview">
           <span className={Styles.sectionHeadText}>Contact</span>
@@ -44,8 +45,9 @@ function Contact() {
               action=""
               className="m-5 flex-col gap-3 flex "
             >
+              {/* Update label text color */}
               <label htmlFor="" className="flex flex-col gap-3">
-                <span className="text-violet-700 font-medium mb-2">
+                <span className="text-violet-400 font-medium mb-2">
                   Your Name
                 </span>
                 <input
@@ -56,8 +58,9 @@ function Contact() {
                   className=" outline-none border-none font-medium bg-orange-200 py-4 px-6 placeholder:text-secondary text-orange-500 rounded-lg "
                 />
               </label>
+              {/* Update label text color */}
               <label htmlFor="" className="flex flex-col gap-3">
-                <span className="text-violet-700 font-medium mb-2">
+                <span className="text-violet-400 font-medium mb-2">
                   Your Email
                 </span>
                 <input
@@ -85,7 +88,7 @@ function Contact() {
               <button
                 type="submit"
                 value="send"
-                className="bg-slate-100 hover:shadow-orange-300 py-3 px-8 mb-4 m-4 rounded-xl outline-none w-fit text-black font-bold shadow-md shadow-primary"
+                className="bg-orange-700 text-white hover:bg-gray-800 py-3 px-8 mb-4 m-4 rounded-xl outline-none w-fit font-bold shadow-md shadow-primary"
               >
                 Submit
               </button>

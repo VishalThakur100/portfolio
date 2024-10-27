@@ -1,9 +1,8 @@
-import React from "react";
 // import Profile from "../assets/profile.png";
 import IMG from "../assets/IMG_2972.jpg";
 // import IMG from "../assets/IMG_2972-transformed.png";
 import { Styles } from "../utils/Style";
-import Resume from "../assets/New_Resume.pdf";
+import Resume from "../assets/Vishal_Resume.pdf"
 import { TiArrowDownOutline } from "react-icons/ti";
 import "../App.css";
 
